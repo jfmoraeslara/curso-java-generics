@@ -5,7 +5,7 @@ import java.util.List;
 
 public class PrintService<T> {
 	
-	// lista genérica	
+	// lista genérica tipo T
 	private List<T> list = new ArrayList<>();
 	
 	public void addValue(T value) {
